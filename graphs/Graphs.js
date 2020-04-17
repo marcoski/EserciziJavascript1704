@@ -11,7 +11,7 @@ const Stack = require('../structs/Stack')
  * @method display -> stampa il grafo secondo la lista di adiacenze
  * @method bsf -> esegue l'attraversamento in ampiezza del grafo
  * @method dsf -> esegue l'attraversamento in profondità del grafo
- * @method dijkstra -> esegue l'algoritmo di Dijstra per trovare i cammini minimi
+ * @method dijkstra -> esegue l'algoritmo di Dijkstra per trovare i cammini minimi
  */
 class Graph {
   constructor() {
