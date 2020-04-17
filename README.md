@@ -33,8 +33,10 @@ Studiare il capitolo del file `Graphs.js` ad eccezione dei paragrafi che trattan
 
 Svolgere tutti gli esercizi nella cartella `graphs` importare il file `Graphs.js` per lavorare con la classe che rappresenta la struttura dati
 
-1. Modificare la classe `Graph` aggiungendo la classe `Vertex` per rappresentare un vertice di modo che si possa lavorare su vertici che abbiano dei dati strutturati al proprio interno e la classe `Edge` per rappresentare una connessione. Modificare poi i metodi `addVertex`, `addEdge` e `addDirectEdge` in modo che inseriscano nella proprietà `this.vertex` degli oggetti della classe `Vertex` e nella lista di adiacenze di ogni vertice `this.edges` un array di oggetti `Edge`.
+1. Modificare la classe `Graph` aggiungendo la classe `Vertex` per rappresentare un vertice in modo che si possa lavorare su vertici che abbiano dei dati strutturati al proprio interno e la classe `Edge` per rappresentare una connessione. Modificare poi i metodi `addVertex`, `addEdge` e `addDirectEdge` in modo che inseriscano nell' array `this.vertex` oggetti della classe `Vertex` e nella lista di adiacenze di ogni vertice `this.edges` un array di oggetti della classe `Edge`.
+
 Testare la modifica nel file `test-vertex.js`, come esempio potete usare il grafo qui descritto https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif
+
 NB `this.edges` deve rimanere un dizionario per cui la classe `Vertex` dovrà prevedere una proprieta `key` per poter funzionare sul dizionario
 
 2. Scrivere ed esportare con `module.exports` nel file `create-graph.js` la funzione `createGraph` che dato in input un insieme di vertici e un insieme di edges restituisce un'istanza dell'oggetto della classe `Graph` opportunamente costruito. Come esempio potete provare a costruire il seguente grafo qui descritto https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif
