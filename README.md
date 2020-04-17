@@ -39,7 +39,7 @@ Testare la modifica nel file `test-vertex.js`, come esempio potete usare il graf
 
 NB `this.edges` deve rimanere un dizionario per cui la classe `Vertex` dovrà prevedere una proprieta `key` per poter funzionare sul dizionario
 
-2. Scrivere ed esportare con `module.exports` nel file `create-graph.js` la funzione `createGraph` che dato in input un insieme di vertici e un insieme di edges restituisce un'istanza dell'oggetto della classe `Graph` opportunamente costruito. Come esempio potete provare a costruire il seguente grafo qui descritto https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif
+2. Scrivere ed esportare con `module.exports` nel file `create-graph.js` la funzione `createGraph` che dato in input un insieme di vertici e un insieme di edges restituisca un'istanza della classe `Graph` opportunamente costruito. Come esempio potete provare a costruire il seguente grafo qui descritto https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#/media/File:Dijkstra_Animation.gif
 
 3. Modificare la classe `Graph` in modo che i metodi `bfs` e `dfs` prendano in input una funzione di callback in grado di lavorare sul vertice visitato al posto del `console.log` che trovate alle righe 79 per `bfs` e 57 per `dfs`. Testare il funzionamento dei nuovi metodi nel file `test-bfs-dfs.js` utilizzando la funzione `createGraph` dell'esercizio 2 creando un grafo a vostro piacimento.
 
@@ -47,4 +47,5 @@ NB `this.edges` deve rimanere un dizionario per cui la classe `Vertex` dovrà pr
   - un attraversamento in ampiezza utilizzando il metodo `bfs` modificato nell'esercizio 3 (scegliete voi la funzione va bene anche un console.log)
   - un attraversamento in profondità utilizzando il metodo `dfs` modificato nell'esercizio 3 (scegliete voi la funzione va bene anche un console.log)
   - determinare tramite l'algoritmo di Dijstra il cammino minimo per arrivare dalla città di partenza ad una città di arrivo passando per almeno 3 vertici escluso il vertice di partenza
+  
 svolgere l'esercizio nel file `my-city.js`
