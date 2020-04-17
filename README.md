@@ -46,6 +46,6 @@ NB `this.edges` deve rimanere un dizionario per cui la classe `Vertex` dovrà pr
 4. Creare un grafo pesato (in cui i pesi sono le distanze tra vertici espresse in km) utilizzando la funzione `createGraph` dell'esercizio 2 che rappresenti la mappa dell'area circostante la vostra città (oppure una città a vostro piacimento) una volta creato il grafo eseguire su di esso:
   - un attraversamento in ampiezza utilizzando il metodo `bfs` modificato nell'esercizio 3 (scegliete voi la funzione va bene anche un console.log)
   - un attraversamento in profondità utilizzando il metodo `dfs` modificato nell'esercizio 3 (scegliete voi la funzione va bene anche un console.log)
-  - determinare tramite l'algoritmo di Dijstra il cammino minimo per arrivare dalla città di partenza ad una città di arrivo passando per almeno 3 vertici escluso il vertice di partenza
+  - determinare tramite l'algoritmo di Dijkstra il cammino minimo per arrivare dalla città di partenza ad una città di arrivo passando per almeno 3 vertici escluso il vertice di partenza
   
 svolgere l'esercizio nel file `my-city.js`
