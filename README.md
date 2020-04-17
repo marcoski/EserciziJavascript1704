@@ -18,12 +18,13 @@ utilizzino una funzione `compare` come fatto precedentemente per la classe `Link
   - il remove di un nodo con un solo figlio destro
   - il remove di un nodo con due figli
   - il remove della radice
+
 testare il funzionamento corretto del metodo `remove` e correggere eventuali errori
 NB nel metodo remove ho inserito errori
 
-4. Modificare la classe `BinarySearchTree` aggiungendo un metodo `getNumNodes()` che restituisce il numero dei nodi presente nell'albero. Testare il metodo nel file `test-num-nodes.js`
+4. Modificare la classe `BinarySearchTree` aggiungendo un metodo `getNumNodes()` che restituisa il numero dei nodi presente nell'albero. Testare il metodo nel file `test-num-nodes.js`
 
-5. Modificare la classe `BinarySearchTree` aggiungendo un metodo `getNumEdges()` che restituisce il numero di "connessioni" esistenti tra i nodi dell'albero. Testare il metodo nel file `test-num-edges.js`
+5. Modificare la classe `BinarySearchTree` aggiungendo un metodo `getNumEdges()` che restituisa il numero di "connessioni" esistenti tra i nodi dell'albero. Testare il metodo nel file `test-num-edges.js`
 
 ## ESERCIZI - GRAFI
 
